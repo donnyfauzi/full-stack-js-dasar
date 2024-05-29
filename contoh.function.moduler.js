@@ -14,10 +14,10 @@ function proses_perhitungan_gaji(
   gajiPerHari,
   jamLembur = 0
 ) {
-  let gajian = gajiPerHari * hariKerja;
-  let upahLembur = (gajiPerHari / 8) * jamLembur;
-  let totalgajian = gajian + upahLembur;
+  var gajian = gajiPerHari * hariKerja;
+  var upahLembur = (gajiPerHari / 8) * jamLembur;
+  var totalgajian = gajian + upahLembur;
   cetak_slip_gaji(staff, periode, gajian, upahLembur, totalgajian);
 }
 
-cetak_slip_gaji("Donny", "Mei 2024", 20, 150000, 5);
+proses_perhitungan_gaji("Donny", "Mei 2024", 20, 150000, 5);
