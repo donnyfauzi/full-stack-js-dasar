@@ -33,13 +33,13 @@
 
 // mahasiswa.cetakRapor();
 
-var caca = {
+let caca = {
   nama: "Caca",
   berat: 45,
   tinggi: 155,
   hobi: ["nonton", "makan", "minum", "rebahan"],
   sebutkanHobi: function () {
-    var semuaHobi = "";
+    let semuaHobi = "";
     for (let i = 0; i < this.hobi.length; i++) {
       semuaHobi = semuaHobi + (i + 1) + ". " + this.hobi[i];
     }
